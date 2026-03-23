@@ -33,7 +33,7 @@ const SolutionsSection = () => {
             Built for every use case
           </h2>
           <p className="text-muted-foreground text-lg">
-            From solo developers to enterprise teams, RedCore adapts to your needs.
+            From solo developers to enterprise teams, OHH My Hindusthan adapts to your needs.
           </p>
         </div>
 

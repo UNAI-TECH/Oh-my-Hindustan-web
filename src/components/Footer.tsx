@@ -54,7 +54,7 @@ const Footer = () => {
 
         <div className="mt-14 pt-8 border-t border-primary-foreground/10 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-primary-foreground/30">
-            © {new Date().getFullYear()} RedCore. All rights reserved.
+            © {new Date().getFullYear()} OHH My Hindusthan. All rights reserved.
           </p>
           <div className="flex gap-6">
             <a href="#" className="text-sm text-primary-foreground/30 hover:text-primary-foreground transition-colors">Twitter</a>

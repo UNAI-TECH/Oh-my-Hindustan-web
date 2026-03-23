@@ -6,7 +6,7 @@ const blocks = [
     label: "Platform",
     title: "A unified platform for modern development",
     description:
-      "RedCore aggregates, orchestrates, and automates your entire development pipeline — from code to production. Our intelligent engine adapts to your team's workflow.",
+      "OHH My Hindusthan aggregates, orchestrates, and automates your entire development pipeline — from code to production. Our intelligent engine adapts to your team's workflow.",
     bullets: [
       "AI-powered workflow automation",
       "Customizable pipelines and environments",

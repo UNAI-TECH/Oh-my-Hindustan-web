@@ -14,7 +14,7 @@ const HeroSection = () => {
           <div className="flex-1 text-center lg:text-left space-y-6 animate-fade-in-up">
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-semibold">
               <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-              Now Available — RedCore v3.0
+              Now Available — OHH My Hindusthan v3.0
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-[3.5rem] xl:text-6xl font-extrabold leading-[1.1] tracking-tight text-foreground">
               Build, Ship, and Scale<br />

@@ -15,7 +15,7 @@ const CtaSection = () => {
           Ready to accelerate your workflow?
         </h2>
         <p className="text-primary-foreground/80 text-lg max-w-xl mx-auto">
-          Join millions of developers and teams who trust RedCore to build, ship, and scale.
+          Join millions of developers and teams who trust OHH My Hindusthan to build, ship, and scale.
         </p>
         <div className="pt-2 flex flex-col sm:flex-row gap-4 justify-center">
           <Button
