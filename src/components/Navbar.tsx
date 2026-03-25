@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const navLinks = [
   { label: "Home", href: "#home" },
@@ -32,7 +33,7 @@ const Navbar = () => {
     >
       <div className="container flex h-16 items-center justify-between">
         <a href="#home" className="text-xl font-extrabold tracking-tight text-foreground">
-          Red<span className="text-primary">Core</span>
+          OHH My <span className="text-primary">Hindustan</span>
         </a>
 
         {/* Desktop nav */}
@@ -49,12 +50,14 @@ const Navbar = () => {
         </nav>
 
         <div className="hidden lg:flex items-center gap-4">
-          <a href="#" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
+          <Link to="/login" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
             Login
-          </a>
-          <Button variant="hero" size="default">
-            Get Started
-          </Button>
+          </Link>
+          <Link to="/get-started">
+            <Button variant="hero" size="default">
+              Get Started
+            </Button>
+          </Link>
         </div>
 
         {/* Mobile toggle */}
@@ -82,12 +85,18 @@ const Navbar = () => {
               </a>
             ))}
             <div className="flex flex-col gap-2 mt-3">
-              <a href="#" className="text-sm font-medium text-muted-foreground hover:text-foreground py-2">
+              <Link
+                to="/login"
+                className="text-sm font-medium text-muted-foreground hover:text-foreground py-2"
+                onClick={() => setMobileOpen(false)}
+              >
                 Login
-              </a>
-              <Button variant="hero" className="w-full">
-                Get Started
-              </Button>
+              </Link>
+              <Link to="/get-started" onClick={() => setMobileOpen(false)}>
+                <Button variant="hero" className="w-full">
+                  Get Started
+                </Button>
+              </Link>
             </div>
           </nav>
         </div>

@@ -25,7 +25,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="col-span-2 md:col-span-1 space-y-4">
             <span className="text-xl font-extrabold text-primary-foreground">
-              Red<span className="text-primary">Core</span>
+              OHH My <span className="text-primary">Hindustan</span>
             </span>
             <p className="text-sm leading-relaxed text-primary-foreground/50">
               The modern platform for building and shipping at scale.

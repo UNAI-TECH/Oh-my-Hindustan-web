@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Play } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
@@ -24,10 +25,12 @@ const HeroSection = () => {
               The enterprise platform that accelerates development, simplifies deployment, and powers modern teams across the globe.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-2">
-              <Button variant="hero" size="lg" className="px-8 py-6 text-base gap-2">
-                Get Started Free
-                <ArrowRight className="w-4 h-4" />
-              </Button>
+              <Link to="/get-started">
+                <Button variant="hero" size="lg" className="px-8 py-6 text-base gap-2">
+                  Download Here
+                  <ArrowRight className="w-4 h-4" />
+                </Button>
+              </Link>
               <Button variant="hero-outline" size="lg" className="px-8 py-6 text-base gap-2">
                 <Play className="w-4 h-4" />
                 Watch Demo
